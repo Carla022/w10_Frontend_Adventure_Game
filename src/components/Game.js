@@ -20,7 +20,7 @@ const Game = ({postGame}) => {
     return (
         
         <div className = "startGame" 
-            style={{ backgroundImage: "url(/background_layer_1.png)",
+            style={{ backgroundImage: "url(../assets/background/background_layer_1.png)",
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'}}>

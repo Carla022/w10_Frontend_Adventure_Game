@@ -4,6 +4,7 @@ import Shop from "../components/Shop";
 import Battle from "../components/Battle";
 import {Routes, Route, useNavigate} from "react-router-dom";
 import { useEffect, useState } from "react";
+import MusicPlayer from "../components/MusicPlayer";
 
 const GameContainer = () => {
     const navigate = useNavigate();
@@ -158,6 +159,7 @@ const GameContainer = () => {
             <div>
                 <Routes>
                     <Route path="/Game" element={<Game postGame={postGame}/>}/>
+
                     <Route path="/Lobby" element={<Lobby 
                                                     activePlayer={activePlayer}
                                                     startLevel1={startLevel1}
@@ -177,6 +179,7 @@ const GameContainer = () => {
                                                     attackMonsterLevel2={attackMonsterLevel2}
                                                     attackMonsterLevel3={attackMonsterLevel3}/>}/>
                 </Routes>
+                <MusicPlayer />
                 <div className="log">
                     <h4><em>Adventure Scroll:</em></h4>
                         {reversedMessages.map((message, index) => {

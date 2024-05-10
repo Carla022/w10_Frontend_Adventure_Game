@@ -80,6 +80,8 @@ ul li {
   margin: 0 120px;
 }
 
+/* INTRODUCTION START -------------------------------------------------*/
+
 div.instructionContainer {
   text-align: center;
   color: white;
@@ -103,6 +105,7 @@ section {
 .instructionContainer {
   height: 100%;
   line-height: 1.5em;
+  
 }
 
 .instructionContainer hr {
@@ -113,6 +116,38 @@ section {
   border-color: goldenrod;
   border-width: 0 0 0.2px 0;
 }
+
+/* INSTRUCTION END -------------------------------------------------*/
+
+/* INTRODUCTION START-------------------------------------------------*/
+.introductionContainer {
+  height: 100%;
+  line-height: 1.5em;
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  font-size: 22px;
+}
+
+.intro_section{
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+
+.introductionContainer hr {
+  display: block;
+  height: 30px;
+  margin: auto 200px;
+  border-style: solid;
+  border-color: goldenrod;
+  border-width: 0 0 0.2px 0;
+}
+
+/* INTRODUCTION END-------------------------------------------------*/
 
 input[name="name"] {
   border:none;

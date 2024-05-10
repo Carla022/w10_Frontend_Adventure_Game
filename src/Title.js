@@ -1,6 +1,6 @@
 const Title = () => {
 
-    return <h1>Adventure Game</h1>
+    return <h1>Scrolls of Odyssey : Call to Tarragon</h1>
 
 }
 

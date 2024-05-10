@@ -2,6 +2,7 @@ import {BrowserRouter, Link, Routes, Route} from "react-router-dom";
 
 import Title from './Title';
 import Instructions from './Instructions';
+import Introduction from './Introduction';
 import GameContainer from './containers/GameContainer';
 import Footer from './Footer';
 import './App.css';
@@ -20,9 +21,8 @@ function App() {
         {/* <NavBar /> */}
         <NavbarComponent/>
         <Title />
-        <Instructions />
-        
-
+        <Introduction />
+    
       </header>
       {/* <hr className="GameWindow-border"/> */}
 
@@ -31,6 +31,8 @@ function App() {
           <GameContainer />
         </section>
       </main>
+
+      <header><Instructions /></header>
 
       {/* <hr className="GameWindow-border"/> */}
 
